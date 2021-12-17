@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Taking</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <script src="assets/scripts/script.js" defer></script>
+  </head>
+  <body>
+    <div class="modal-container">
+      <div class="modal">
+        <div class="row">
+          <h2 class="title"></h2>
+          <img class="close-btn" src="assets/images/close.png" alt="" />
+        </div>
+        <p class="note-text"></p>
+      </div>
+    </div>
+
+    <div class="note-taking">
+      <h1 class="app-title">Note Taking</h1>
+      <div class="form">
+        <div class="form-controle">
+          <h2 class="title">Title</h2>
+          <input type="text" class="input" />
+        </div>
+        <div class="form-controle">
+          <h2 class="title">text</h2>
+          <textarea class="text"></textarea>
+        </div>
+      </div>
+      <button class="btn">
+        Save <img src="assets/images/save-icon.svg" alt="" />
+      </button>
+    </div>
+
+    <div class="notes"></div>
+  </body>
+</html>
